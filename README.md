@@ -10,16 +10,30 @@
 
 ## Objetivo
 
-Prever o tempo de entrega (em dias) dos pedidos feitos na plataforma Olist, utilizando dados históricos de pedidos, produtos, vendedores e avaliações.
+Prever o tempo de entrega em dias dos pedidos feitos na plataforma Olist, utilizando dados históricos de pedidos, produtos, vendedores e avaliações.
 
 ## Estrutura do repositório
 
-- `data/` — pasta para armazenar os CSVs originais do Olist.
-- `outputs/` — pasta para armazenar os dados preparados.
-- `requirements.txt`
-- `preparacao.py` — script para preparação e engenharia de features.
-- `README.md`
-- `LICENSE` — MIT
+olist-delivery-time/
+├─ data/                      # pasta para armazenar os CSVs
+│  ├─ processed/
+│  │  └─ orders_features.csv  # arquivo gerador pelo prepare_data.py, usado pelo Orange
+│  ├─ raw/                    # CSVs originais do Kaggle
+│  │  ├─ customers.csv
+│  │  ├─ geolocation.csv
+│  │  ├─ order_items.csv
+│  │  ├─ order_payments.csv
+│  │  ├─ orders.csv
+│  │  └─ products.csv
+├─ orange_workflow/
+│  └─ olist_workflow.ows      # arquivo de workflow do Orange
+├─ results/
+│  ├─ metrics.csv
+│  └─ best_model_prediction_sample.csv
+├─ prepare_data.py            # script de preparação dos dados 
+├─ requirements.txt
+├─ README.md
+└─ LICENSE
 
 ## Dados de entrada
 
