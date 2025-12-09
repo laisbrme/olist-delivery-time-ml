@@ -54,4 +54,4 @@ df["diff_estimated_days"] = (df["order_estimated_delivery_date"] - df["order_del
 
 # Seleciona colunas úteis e salva em CSV
 cols = ["order_id","tempo_de_entrega","n_items","total_price","total_freight","avg_price","payment_value","n_payments","customer_state","purchase_dayofweek","purchase_hour","purchase_month","diff_estimated_days"]
-df[cols].to_csv("outputs/orders_features.csv", index=False)
+df[cols].to_csv("data/processed/orders_features.csv", index=False)
