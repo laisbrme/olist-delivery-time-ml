@@ -26,6 +26,7 @@ Neste projeto, utilizamos o **[Brazilian E-Commerce Public Dataset by Olist](htt
 
 ## Estrutura do repositório
 
+```bash
 olist-delivery-time-lm/
 ├── data/
 │   ├── processed/          # Dados processados prontos para o Orange (orders_features.csv)
@@ -39,6 +40,7 @@ olist-delivery-time-lm/
 ├── requirements.txt        # Dependências do projeto
 ├── README.md               # Documentação do projeto
 └── LICENSE                 # Licença MIT
+```
 
 ## 🛠️ Tecnologias Utilizadas
 
