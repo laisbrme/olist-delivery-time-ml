@@ -97,7 +97,9 @@ Isso irá gerar o arquivo ``orders_features.csv`` na pasta ``data/processed/``.
 
 ## 🎥 Vídeo de apresentação
 
-[![Apresentação do projeto](https://img.youtube.com/vi/SEU_VIDEO_ID_AQUI/0.jpg)](https://www.youtube.com/watch?v=SEU_VIDEO_ID_AQUI)
+Vídeo de apresentação do projeto no YouTube:
+
+[![Apresentação do projeto](https://img.youtube.com/vi/mtNACTUJZMI/0.jpg)](https://www.youtube.com/watch?v=mtNACTUJZMI)
 
 ## 👤 Autora
 
